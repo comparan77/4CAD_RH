@@ -18,8 +18,7 @@
  */
 
 //var lstTarima = [];
-var urlHandler = 'http://192.168.1.66:82/';
-//var urlHandler = 'http://yaaxil.ddns.net:82/';
+var urlHandler = 'https://servidor.casc.com.mx/';
 var oUsuario;
 var oCAEController = new CAEController();
 var menuAct = 'inicio';
