@@ -13,7 +13,7 @@ var QrController = function() {
 
     function scanear(){
         cordova.plugins.barcodeScanner.scan(
-            function (result) {
+            function (result) { 
                 var oBeanPerQRPivote = new BeanPerQRPivote(result.text, oUsuario.Id);
                 OperationModel.asignaQRPivote(oBeanPerQRPivote, function(data) {
                     x$('#lbl_folio').html(data.Idf);
